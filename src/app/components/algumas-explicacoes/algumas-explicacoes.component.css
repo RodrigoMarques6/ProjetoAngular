@@ -1,0 +1,36 @@
+* {
+    background-color: darkslategray;
+}
+
+.div1 {
+    border: 2px solid rgb(204, 20, 20);
+    border-radius: 6px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: 6px;
+   
+}
+
+.li {
+    list-style: circle;
+}
+
+b {
+    color: yellowgreen;
+}
+
+b:hover {
+    color: rgb(255, 255, 255);
+}
+
+.div2 {
+    text-align: left;
+    padding: 15px;
+    text-align: justify;
+}

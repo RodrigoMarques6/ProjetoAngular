@@ -1,0 +1,18 @@
+<div class="div1">
+  <h1>Algumas explicações</h1>
+  <h3>Para criar um componente no Angular, rode o seguinte comando:</h3>
+  <li class="li">ng generate component <b>NomeDoComponente</b></li>
+  <br />
+
+  <h3>Compartilhando dados do componente pai para o componente filho:</h3>
+  <div class="div2">
+    <li>1. Criar o componente filho (criamos o componente chamado <b>"parent-component"</b>.);</li>
+    <li>2. Adicionamos o <b>"parent-component"</b> ao HTML do componente pai (abrindo e fechando suas tags);</li>
+    <li>3. No navegador, apareceu a informação de confirmação da criação desse novo componente;</li>
+    <li>4. Criamos a propriedade <b>userName = 'Rodrigo';</b>, no TS do componente pai</li>
+    <li>4. Sinalizamos no HTML do componente pai que um dado está sendo compartilhado (adicionamos <b>[name] = 'userName'</b>;</li>
+    <li>5. Criamos uma propriedade no componente filho <b>(foi criado um Input no import do TS do componente filho)</b>;</li>
+    <li>6. Adicionamos no export do componente filho, no TS, a expressão <b>@Input() name: string = ' ';</b></li>
+    <li>7. Utilizamos os elementos no componente. Acessamos o componente filho (parent-component) e adicionamos no HTML: <b>Nome: name (o name é entre duas chaves).</b></li>
+  </div>
+</div>
