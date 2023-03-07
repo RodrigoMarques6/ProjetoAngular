@@ -1,3 +1,6 @@
+/* Aqui é o escopo global de CSS, ou seja, funciona para todos.
+Exemplo:
+Posso trocar a cor de todos os botões dos componentes */
 * {
     font-family: sans-serif;
     background-color: rgb(17, 60, 104);
