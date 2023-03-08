@@ -9,6 +9,7 @@ import { ThirdComponentComponent } from './components/third-component/third-comp
 import { ParentComponentComponent } from './components/parent-component/parent-component.component';
 import { AlgumasExplicacoesComponent } from './components/algumas-explicacoes/algumas-explicacoes.component';
 import { FourthComponentComponent } from './components/fourth-component/fourth-component.component';
+import { DiretivasComponent } from './components/diretivas/diretivas.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FourthComponentComponent } from './components/fourth-component/fourth-c
     ThirdComponentComponent,
     ParentComponentComponent,
     AlgumasExplicacoesComponent,
-    FourthComponentComponent
+    FourthComponentComponent,
+    DiretivasComponent
   ],
   imports: [
     BrowserModule,
