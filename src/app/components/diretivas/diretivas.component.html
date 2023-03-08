@@ -1,4 +1,32 @@
 <div class="div1">
-    <h1>Diretivas</h1>
-    <h3>Aplicando estilos para um elemento:</h3>
+  <h1>Diretivas</h1>
+  <h3>Aplicando estilos para um elemento:</h3>
+  <li>1. Crie um componente;</li>
+  <li>2. Adicione o componente no HTML pai;</li>
+  <li>
+    3. Adicione a propriedade <b>[ngStyle]</b> e escreva CSS em linha para
+    trazer estilos ao conteúdo. o CSS escrito deve estar entre aspas e entre
+    chaves
+  </li>
+
+  <p>Vejamos funcionando:</p>
+  <p
+    class="p"
+    [ngStyle]="{
+      background: 'red',
+      padding: '20px',
+      'border-radius': '10px',
+      color: 'white', 'border': '2px solid blue'
+    }"
+  >
+    Este fundo está vermelho
+  </p>
+
+  <h3>Aplicando estilos a um elemento por meio de propriedades:</h3>
+  <li>
+    1. Acesse o TS do componente e adicione as propriedades de estilos na parte
+    do export (ver a parte do export, no código)
+  </li>
+  <p>Vejamos funcionando:</p>
+  <p [ngStyle]="{'background': background, 'border': border, 'padding': padding, 'border-radius': border_radius, 'color': color}">Recebi uma cor, um fundo dinâmico e um border dinâmico</p>
 </div>
