@@ -8,6 +8,7 @@ import { SecondComponentComponent } from './components/second-component/second-c
 import { ThirdComponentComponent } from './components/third-component/third-component.component';
 import { ParentComponentComponent } from './components/parent-component/parent-component.component';
 import { AlgumasExplicacoesComponent } from './components/algumas-explicacoes/algumas-explicacoes.component';
+import { FourthComponentComponent } from './components/fourth-component/fourth-component.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AlgumasExplicacoesComponent } from './components/algumas-explicacoes/al
     SecondComponentComponent,
     ThirdComponentComponent,
     ParentComponentComponent,
-    AlgumasExplicacoesComponent
+    AlgumasExplicacoesComponent,
+    FourthComponentComponent
   ],
   imports: [
     BrowserModule,
