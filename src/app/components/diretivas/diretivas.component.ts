@@ -10,5 +10,7 @@ export class DiretivasComponent {
   border = '2px solid blue';
   padding = '20px';
   border_radius = '10px';
-  color = 'white'
+  color = 'white';
+
+  classes = ['classe1', 'classe2'];
 }

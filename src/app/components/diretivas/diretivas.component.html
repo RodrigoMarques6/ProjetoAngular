@@ -29,4 +29,17 @@
   </li>
   <p>Vejamos funcionando:</p>
   <p [ngStyle]="{'background': background, 'border': border, 'padding': padding, 'border-radius': border_radius, 'color': color}">Recebi uma cor, um fundo dinâmico e um border dinâmico</p>
+
+  <h3>Aplicando estilos a um elemento por meio de classes:</h3>
+  <li>
+    1. Acesse o TS do componente e adicione as propriedades de estilos na parte do export (ver a parte do export, no código). No exemplo, criamos a propriedade "classes".
+  </li>
+  <li>
+    2. Adicione o elemento no HTML do componente filho e atribua a ele a classe especificada.
+  </li>
+  <li>
+    3. Agora, acesse o CSS do componente filho e utilize as classes criadas no TS do mesmo componente para adicionar os estilos.
+  </li>
+  <p>Vejamos funcionando:</p>
+  <p [ngClass] = classes>Recebi estilos através de classes!</p>
 </div>
