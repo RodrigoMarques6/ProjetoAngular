@@ -14,5 +14,6 @@ export class FirstComponentComponent {
   car = {
     name: 'Tiggo 7 Pro',
     year: 2022,
-  }
+  };
+  city: string = 'Maceió';
 }

@@ -10,6 +10,7 @@ import { ParentComponentComponent } from './components/parent-component/parent-c
 import { AlgumasExplicacoesComponent } from './components/algumas-explicacoes/algumas-explicacoes.component';
 import { FourthComponentComponent } from './components/fourth-component/fourth-component.component';
 import { DiretivasComponent } from './components/diretivas/diretivas.component';
+import { LastComponentComponent } from './components/last-component/last-component.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { DiretivasComponent } from './components/diretivas/diretivas.component';
     ParentComponentComponent,
     AlgumasExplicacoesComponent,
     FourthComponentComponent,
-    DiretivasComponent
+    DiretivasComponent,
+    LastComponentComponent,
+    
   ],
   imports: [
     BrowserModule,
