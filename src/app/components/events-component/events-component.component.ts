@@ -12,4 +12,8 @@ export class EventsComponentComponent {
     this.show = !this.show;
     // !this.show" foi utilizado para fazer uma espécia de "toggle"
   }
+
+  removeMessage(): void {
+    this.show = false;
+  }
 }

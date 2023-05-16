@@ -12,6 +12,8 @@ import { FourthComponentComponent } from './components/fourth-component/fourth-c
 import { DiretivasComponent } from './components/diretivas/diretivas.component';
 import { LastComponentComponent } from './components/last-component/last-component.component';
 import { EventsComponentComponent } from './components/events-component/events-component.component';
+import { EmitterComponentComponent } from './components/emitter-component/emitter-component.component';
+import { EmitterChangeNumberComponentComponent } from './components/emitter-change-number-component/emitter-change-number-component.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { EventsComponentComponent } from './components/events-component/events-c
     DiretivasComponent,
     LastComponentComponent,
     EventsComponentComponent,
+    EmitterComponentComponent,
+    EmitterChangeNumberComponentComponent,
     
   ],
   imports: [
