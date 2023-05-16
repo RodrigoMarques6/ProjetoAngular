@@ -9,6 +9,6 @@ export class EventsComponentComponent {
   show: boolean = true;
 
   showMessage(): void{
-    this.show = true;
+    this.show = false;
   }
 }
