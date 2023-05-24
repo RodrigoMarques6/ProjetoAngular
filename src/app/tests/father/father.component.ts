@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./father.component.css']
 })
 export class FatherComponent {
-    className: string = 'Olá mundo do Angular'
+    className: string = 'Testando a comunicação entre componentes'
 }

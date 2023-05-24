@@ -1,0 +1,15 @@
+<div class="div1">
+    <div *ngIf="canShow">Estamos mostrando isso apenas se for permitido pelo TS deste componente!</div>
+
+    <h2 *ngIf="name === 'Rodrigo'">Estou mostrando isso apenas se o "name" for Rodrigo</h2>
+    <h3 *ngIf="age !== 25">Estou mostrando isso se a idade for diferente de 25</h3>
+
+    <h1>Agora vamos realizar condicionais com IF e ELSE:</h1>
+
+    <h3 *ngIf="number === 30 ; else valueNotFound" >O número encontrado é 30</h3>
+    <ng-template #valueNotFound>
+        <div>
+            <h3>O número não foi encontrado!</h3>
+        </div>
+    </ng-template>
+</div>

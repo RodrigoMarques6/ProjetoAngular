@@ -16,6 +16,7 @@ import { EmitterComponentComponent } from './components/emitter-component/emitte
 import { EmitterChangeNumberComponentComponent } from './components/emitter-change-number-component/emitter-change-number-component.component';
 import { ChildComponent } from './tests/child/child.component';
 import { FatherComponent } from './tests/father/father.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { FatherComponent } from './tests/father/father.component';
     EmitterChangeNumberComponentComponent,
     ChildComponent,
     FatherComponent,
+    IfRenderComponent,
   ],
   imports: [
     BrowserModule,
