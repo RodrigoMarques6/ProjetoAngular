@@ -14,6 +14,8 @@ import { LastComponentComponent } from './components/last-component/last-compone
 import { EventsComponentComponent } from './components/events-component/events-component.component';
 import { EmitterComponentComponent } from './components/emitter-component/emitter-component.component';
 import { EmitterChangeNumberComponentComponent } from './components/emitter-change-number-component/emitter-change-number-component.component';
+import { ChildComponent } from './tests/child/child.component';
+import { FatherComponent } from './tests/father/father.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { EmitterChangeNumberComponentComponent } from './components/emitter-chan
     EventsComponentComponent,
     EmitterComponentComponent,
     EmitterChangeNumberComponentComponent,
-    
+    ChildComponent,
+    FatherComponent,
   ],
   imports: [
     BrowserModule,
